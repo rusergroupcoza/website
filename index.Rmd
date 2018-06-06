@@ -18,7 +18,8 @@ We are the local R user group for Johannesburg, South Africa.
 R is an open source programming language for statistical computing, data analysis, and graphical visualization (http://www.r-project.org/). R has a large user community worldwide, and its user base is growing exponentially. While most commonly used within academia, in fields such as computational biology and applied statistics, it is gaining traction in commercial areas such as quantitative finance and business intelligence.
 
 ## Our goals
-Our goal is to support and share R experiences and knowledge among its users in the South African community. We would also like to inspire new users to learn R.
+Our purpose is to bring R users together to help each other with common problems, exchange knowledge and share experiences.
+Secondly, this group intends to spread the use of R in South Africa and show others (also non-R users) the benefits of using R.
 
 ## Connect with us
 We would like to hear how you use and enjoy the R language and statistical programming environment.
