@@ -15,13 +15,13 @@ url: 'https\://www.rusergroup.co.za'
 We are the local R user group for Johannesburg, South Africa.
 
 ## What is R
-R is an open source programming language for statistical computing, data analysis, and graphical visualization (http://www.r-project.org/). R has a large user community worldwide, and its user base is growing exponentially. While most commonly used within academia, in fields such as computational biology and applied statistics, it is gaining traction in commercial areas such as quantitative finance and business intelligence.
+R is a programming language for statistical computing, data analysis and visualisation of data. R is free and open source. Learn more at (http://www.r-project.org/).
 
 ## Our goals
-Our purpose is to bring R users together to help each other with common problems, exchange knowledge and share experiences.
-Secondly, this group intends to spread the use of R in South Africa and show others (also non-R users) the benefits of using R.
+- Our purpose is to bring R users together to help each other with common problems, exchange knowledge and share experiences.
+- Secondly, this group intends to spread the use of R in South Africa and show others (also non-R users) the benefits of using R.
 
 ## Connect with us
 We would like to hear how you use and enjoy the R language and statistical programming environment.
 
-You can join the rest of the community on our meetup site on [Meetup.com](https://www.meetup.com/Joburg-R-Users-Group/).
+To find out more detail of when we're next meeting join the rest of the community on our meetup page on [Meetup.com](https://www.meetup.com/Joburg-R-Users-Group/).
