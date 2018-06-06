@@ -24,4 +24,4 @@ R is a programming language for statistical computing, data analysis and visuali
 ## Connect with us
 We would like to hear how you use and enjoy the R language and statistical programming environment.
 
-To find out more detail of when we're next meeting join the rest of the community on our meetup page on [Meetup.com](https://www.meetup.com/Joburg-R-Users-Group/).
+Find out more details of when we're next meeting on our meetup page on [Meetup.com](https://www.meetup.com/Joburg-R-Users-Group/).
