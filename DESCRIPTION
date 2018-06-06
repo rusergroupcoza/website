@@ -1,0 +1,9 @@
+Package: website
+Type: Package
+Title: Johannesburg R User Group
+Version: 0.0.1
+Authors@R: person(given="Luis", family="de Sousa",
+    email="luisd@syeop.co.za", role = c("aut", "cre"))
+Description: This is a dummy travis package.
+Depends: bookdown, devtools, tidyverse
+LazyData: TRUE

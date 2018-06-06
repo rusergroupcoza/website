@@ -1,0 +1,10 @@
+---
+knit: "bookdown::preview_chapter"
+---
+  
+# Sponsors & Partners
+
+## Venue and Catering Sponsor
+Microsoft South Africa
+
+## Partners

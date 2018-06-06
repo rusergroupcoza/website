@@ -1,0 +1,24 @@
+language: r
+cache: packages
+
+branches:
+  except:
+    - gh-pages
+
+script:
+  - make html
+
+notifications:
+  email:
+    on_success: change
+    on_failure: change
+
+deploy:
+  provider: pages
+  fqdn: www.rusergroup.co.za
+  local_dir: /_book
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  on:
+    branch: master

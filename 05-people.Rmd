@@ -1,0 +1,13 @@
+---
+knit: "bookdown::preview_chapter"
+---
+  
+# People
+Please feel free to reach out to us.
+
+## Current user group leads
+* Luis de Sousa [Twitter](https://twitter.com/luis_de_sousa)
+* Michael Johnson [Twitter](https://twitter.com/Mikejohnsonza)
+
+## Former user group leads
+* Marko Jakovljevic [Twitter](https://twitter.com/MarchofReason)

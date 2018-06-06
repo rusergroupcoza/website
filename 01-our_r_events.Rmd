@@ -1,0 +1,17 @@
+---
+knit: "bookdown::preview_chapter"
+---
+
+# Our R Events
+
+## Upcoming Events
+## 2018 {-}
+* June: TBA - Watch this space. Johannesburg, South Africa.
+
+## 2017 {-}
+* August: [Fouth JHB R Users Meetup!](https://www.meetup.com/Joburg-R-Users-Group/events/241169367/). Johannesburg, South Africa.
+
+## 2016 {-}
+* November: [Third JHB R Users Meetup!](https://www.meetup.com/Joburg-R-Users-Group/events/234647008/). Johannesburg, South Africa.
+* June: [Second JHB R Users Meetup!](https://www.meetup.com/Joburg-R-Users-Group/events/231335370/). Johannesburg, South Africa.
+* March: [First JHB R Users Meetup!](https://www.meetup.com/Joburg-R-Users-Group/events/228916427/). Johannesburg, South Africa.
