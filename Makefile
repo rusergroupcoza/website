@@ -1,6 +1,6 @@
 html:
 	Rscript -e 'bookdown::render_book("index.Rmd", output_format = "bookdown::gitbook", clean = FALSE)'
-	cp -fvr _css/style.css _book/css/
+	cp -fvr _css/style.css _book/
 	cp -fvr _img/* _book/
 
 build:
