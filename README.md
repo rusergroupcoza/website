@@ -2,4 +2,4 @@
 [![Build Status](https://travis-ci.org/rusergroupcoza/website.png?branch=master)](https://travis-ci.org/rusergroupcoza/website) 
 
 ## To build
-make html
+1. run make html
