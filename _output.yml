@@ -2,7 +2,7 @@ bookdown::gitbook:
   includes:
     in_header: google_analytics.html
   number_sections: false
-  css: [_css/style.css,style.css]
+  css: [style.css]
   config:
     toc:
       collapse: section
