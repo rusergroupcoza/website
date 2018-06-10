@@ -21,6 +21,9 @@ R is a programming language for statistical computing, data analysis and visuali
 - Our purpose is to bring R users together to help each other with common problems, exchange knowledge and share experiences.
 - Secondly, this group intends to spread the use of R in South Africa and show others (also non-R users) the benefits of using R.
 
+## Code of Conduct
+Our Code of Conduct can be found here (https://wiki.r-consortium.org/view/R_Consortium_and_the_R_Community_Code_of_Conduct)
+
 ## Connect with us
 We would like to hear how you use and enjoy the R language and statistical programming environment.
 
