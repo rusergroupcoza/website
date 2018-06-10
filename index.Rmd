@@ -12,7 +12,7 @@ url: 'https\://www.rusergroup.co.za'
 # About
 
 ## Who are we
-We are the local R user group for Johannesburg, South Africa.
+We are the local R user group in Johannesburg, South Africa.
 
 ## What is R
 R is a programming language for statistical computing, data analysis and visualisation of data. R is free and open source. Learn more at (http://www.r-project.org/).
