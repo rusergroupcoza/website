@@ -10,44 +10,43 @@ The format for listing an R event is
 
 More events can be found at the [RStudio Community website](https://community.rstudio.com/c/irl)
 
-## 2018 {-}
+## Local Events {-}
 
-### May
-  * May 31-Jun 6: [Data Science Africa 2018](http://www.datascienceafrica.org/dsa2018/). Nyeri, Kenya.
+ * July 9-13: [R Software Fundamentals with Applications to Statistical Analyses and Modelling](https://www.wits.ac.za/stats/data-analysis/). Johannesburg, South Africa.
+ 
 
-### June
+## International Events {-}
+
+### June 2018
 
  *  June 1-2: [R/Finance 2018](http://www.rinfinance.com). Chicago, USA.
  *  June 2: [CascadiaRConf](https://www.cascadiarconf.com). Portland, USA.
 
-### July
+### July 2018
 
  * July 2-5: [WhyR? 2018](http://whyr2018.pl/). Wroclaw, Poland.
  * July 4-6: [7eme rencontres R](https://r2018-rennes.sciencesconf.org). Rennes, France.
- * July 9-13: [R Software Fundamentals with Applications to Statistical Analyses and Modelling](http://www.sastat.org.za/sites/default/files/inline-files/2018-04-08_ShortCourse-RSoftwareFundamentals_Version-Noticeboards%28WithURL%29.pdf). Johannesburg, South Africa.
  * July 10-13: [useR! 2018](https://user2018.r-project.org/). Brisbane, Australia.
  * July: [Noreast'R Conference](http://noreastrconf.com/). Providence, USA.
 
-### September
+### September 2018
 
  * September 4-5: [LatinR 2018](http://latin-r.com/). Buenos Aires, Argentina.
  * September 11-13: [EARL London 2018](https://earlconf.com/london/). London, United Kingdom.
  * September 12-14: [The Use of R in Official Statistics](https://www.aanmelder.nl/uros2018). Hague, Netherlands.
  
-### November
+### November 2018
 
  * November 7: [EARL Seattle](https://earlconf.com/boston). Seattle, USA.
  * November 9: [EARL Houston](https://earlconf.com/boston). Houston, USA.
  * November 13: [EARL Boston](https://earlconf.com/boston). Boston, USA.
  * November 12-14: [Data Science Africa 2018 Abuja](http://www.datascienceafrica.org/dsa2018abuja/). Abuja, Nigeria.
 
-## 2019 {-}
-
-### January
+### January 2019
 
   * January 15-18: [rstudio::conf](https://www.rstudio.com/conference/). Austin, USA.
 
-### July
+### July 2019
 
   * July 9-12: [useR! 2019](http://www.user2019.fr/). Toulouse, France.
 
