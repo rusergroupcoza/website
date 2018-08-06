@@ -9,9 +9,12 @@ knit: "bookdown::preview_chapter"
 
 Description   Detail
 ------------  --------------
-Event Name:   Johannesburg R User Group – June 2018 Meetup
-Date & Time:  29 June 2018 - 8am to 10am
-Venue:        Microsoft Office, 3012 William Nicol Dr, Sandton, South Africa 2191.
+Event Name:   [Johannesburg R User Group – August 2018 Meetup](https://www.meetup.com/Joburg-R-Users-Group/events/253089320/)
+Date & Time:  Friday, August 10, 2018. 11:00 AM to 1:00 PM
+Venue:        Discovery Group (Sandton Head Office), 1 Discovery Place, Sandhurst, Sandton, 2196
+
+## 2018 {-}
+* June: [June 2018 JHB R Users Meetup!](https://www.meetup.com/Joburg-R-Users-Group/events/253089320/). Johannesburg, South Africa.
 
 ## 2017 {-}
 * August: [Fouth JHB R Users Meetup!](https://www.meetup.com/Joburg-R-Users-Group/events/241169367/). Johannesburg, South Africa.
