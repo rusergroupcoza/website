@@ -28,3 +28,5 @@ Our Code of Conduct can be found here (https://wiki.r-consortium.org/view/R_Cons
 We would like to hear how you use and enjoy the R language and statistical programming environment.
 
 Find out more details of when we're next meeting on our meetup page on [Meetup.com](https://www.meetup.com/Joburg-R-Users-Group/).
+
+Slides and code from previous MeetUps can be found in our GitHub [repository].(https://github.com/rusergroupcoza/).
