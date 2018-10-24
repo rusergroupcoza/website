@@ -2,31 +2,28 @@
 knit: "bookdown::preview_chapter"
 ---
 
+```{r, echo = FALSE, message = FALSE, warning = FALSE, results = FALSE}
+library(meetupr)
+library(tidyverse)
+library(kableExtra)
+
+a <- data.frame(get_events("Joburg-R-Users-Group",event_status = c("past", "upcoming")))
+b <- data.frame(get_events("rladies-johannesburg",event_status = c("past", "upcoming")))
+```
+
 # Our R Events
 
-## Upcoming Events
-## 2018 {-}
+## Past and Upcoming Events
+```{r, echo = FALSE}
+a %>% 
+  add_column(event_type = "Johannesburg R User Group" ) %>% 
+  select(event_type, name, time, venue_name, venue_city, link) %>% 
+  kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
 
-Description   Detail
-------------  --------------
-Event Name:   [Johannesburg R User Group - Introduction to R](https://www.meetup.com/Joburg-R-Users-Group/events/254199972/)
-Date & Time:  Monday, October 15, 2018. 6:00 PM to 8:00 PM
-Venue:        Jemstep by Invesco, 138 West Str, Sandton, Johannesburg
-
-Description   Detail
-------------  --------------
-Event Name:   [Johannesburg R User Group – November 2018 Meetup](https://www.meetup.com/Joburg-R-Users-Group/events/255358790/)
-Date & Time:  Friday, November 9, 2018. 11:00 AM to 1:00 PM
-Venue:        Standard Bank, Multi Function Meeting Room B , Ground Floor, 30 Baker Street, Rosebank, Johannesburg
-
-## 2018 {-}
-* August: [Johannesburg R User Group – August 2018 Meetup](https://www.meetup.com/Joburg-R-Users-Group/events/253089320/). Johannesburg, South Africa.
-* June: [June 2018 JHB R Users Meetup!](https://www.meetup.com/Joburg-R-Users-Group/events/253089320/). Johannesburg, South Africa.
-
-## 2017 {-}
-* August: [Fouth JHB R Users Meetup!](https://www.meetup.com/Joburg-R-Users-Group/events/241169367/). Johannesburg, South Africa.
-
-## 2016 {-}
-* November: [Third JHB R Users Meetup!](https://www.meetup.com/Joburg-R-Users-Group/events/234647008/). Johannesburg, South Africa.
-* June: [Second JHB R Users Meetup!](https://www.meetup.com/Joburg-R-Users-Group/events/231335370/). Johannesburg, South Africa.
-* March: [First JHB R Users Meetup!](https://www.meetup.com/Joburg-R-Users-Group/events/228916427/). Johannesburg, South Africa.
+b %>% 
+  add_column(event_type = "Johannesburg R Ladies" ) %>% 
+  select(event_type, name, time, venue_name, venue_city, link) %>% 
+  kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+```
