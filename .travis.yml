@@ -10,7 +10,6 @@ script:
 
 ## Packages not listed as a dependency in DESCRIPTION can be installed here. Equivalent to running install.packages in R.
 r_packages:
- - meetupr
  - tidyverse
  - kableExtra
 
