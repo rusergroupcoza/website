@@ -1,5 +1,5 @@
 --- 
-title: "Johannesburg R User Group"
+title: "South African R User Groups"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 documentclass: book
@@ -12,7 +12,7 @@ url: 'https\://www.rusergroup.co.za'
 # About
 
 ## Who are we
-We are the local R user group in Johannesburg, South Africa.
+We are the R user groups in located in South Africa.
 
 ## What is R
 R is a programming language for statistical computing, data analysis and visualisation of data. R is free and open source. Learn more at (http://www.r-project.org/).
