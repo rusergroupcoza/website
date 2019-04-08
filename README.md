@@ -1,3 +1,3 @@
-# Johannesburg R User Group
+# South Africa R User Groups
 [![Build Status](https://travis-ci.org/rusergroupcoza/website.png?branch=master)](https://travis-ci.org/rusergroupcoza/website) 
 

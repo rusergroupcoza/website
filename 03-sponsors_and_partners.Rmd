@@ -5,6 +5,5 @@ knit: "bookdown::preview_chapter"
 # Sponsors & Partners
 
 ## Venue Sponsor
-Microsoft South Africa
 
 ## Partners

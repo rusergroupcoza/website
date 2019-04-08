@@ -7,7 +7,7 @@ bookdown::gitbook:
     toc:
       collapse: section
       before: |
-        <li><a href="./">Johannesburg R User Group</a></li>
+        <li><a href="./">South Africa R User Groups</a></li>
       after: |
         <div class="div-wrapper"><a href="https://www.rusergroup.co.za"><img src = "logo.png" style="width:100px;padding-left:20px"></a></div>
         <li><a href="https://bookdown.org" target="_blank">Made with ❤ and bookdown</a></li>

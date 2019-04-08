@@ -9,6 +9,7 @@ library(kableExtra)
 
 a <- data.frame(get_events("Joburg-R-Users-Group",event_status = c("past", "upcoming")))
 b <- data.frame(get_events("rladies-johannesburg",event_status = c("past", "upcoming")))
+c <- data.frame(get_events("rladies-cape-town",event_status = c("past", "upcoming")))
 ```
 
 # Our R Events
@@ -22,7 +23,13 @@ a %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
 
 b %>% 
-  add_column(event_type = "Johannesburg R Ladies" ) %>% 
+  add_column(event_type = "R Ladies Johannesburg" ) %>% 
+  select(event_type, name, time, venue_name, venue_city, link) %>% 
+  kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+
+c %>% 
+  add_column(event_type = "R Ladies Cape Town" ) %>% 
   select(event_type, name, time, venue_name, venue_city, link) %>% 
   kable() %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
