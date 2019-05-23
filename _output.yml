@@ -9,7 +9,10 @@ bookdown::gitbook:
       before: |
         <li><a href="./">South Africa R User Groups</a></li>
       after: |
-        <div class="div-wrapper"><a href="https://www.rusergroup.co.za"><img src = "logo.png" style="width:100px;padding-left:20px"></a></div>
+        <div class="div-wrapper">
+        	<a href="https://www.rusergroup.co.za"><img src = "johannesburg-r-usergroup-logo.png" style="width:100px;padding-left:20px"></a>
+        	<a href="https://www.rusergroup.co.za"><img src = "rladies-logo.png" style="width:100px;padding-left:20px"></a>
+        </div>
         <li><a href="https://bookdown.org" target="_blank">Made with ❤ and bookdown</a></li>
     edit:
       link: https://github.com/rusergroupcoza/website/edit/master/%s
