@@ -6,30 +6,34 @@ knit: "bookdown::preview_chapter"
 library(meetupr)
 library(tidyverse)
 library(kableExtra)
+library(lubridate)
 
-a <- data.frame(get_events("Joburg-R-Users-Group",event_status = c("past", "upcoming")))
-b <- data.frame(get_events("rladies-johannesburg",event_status = c("past", "upcoming")))
-c <- data.frame(get_events("rladies-cape-town",event_status = c("past", "upcoming")))
+meetup_johannesburg <- data.frame(get_events("Joburg-R-Users-Group",event_status = c("past", "upcoming")))
+meetup_rladies_johannesburg <- data.frame(get_events("rladies-johannesburg",event_status = c("past", "upcoming")))
+meetup_rladies_cape_town <- data.frame(get_events("rladies-cape-town",event_status = c("past", "upcoming")))
 ```
 
 # Our R Events
 
 ## Past and Upcoming Events
 ```{r, echo = FALSE}
-a %>% 
+meetup_johannesburg %>% 
   add_column(event_type = "Johannesburg R User Group" ) %>% 
+  filter(time >= today() %m+% months(-6) & time <= today() %m+% months(6) ) %>% 
   select(event_type, name, time, venue_name, venue_city, link) %>% 
   kable() %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
 
-b %>% 
+meetup_rladies_johannesburg %>% 
   add_column(event_type = "R Ladies Johannesburg" ) %>% 
+  filter(time >= today() %m+% months(-3) & time <= today() %m+% months(6) ) %>% 
   select(event_type, name, time, venue_name, venue_city, link) %>% 
   kable() %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
 
-c %>% 
+meetup_rladies_cape_town %>% 
   add_column(event_type = "R Ladies Cape Town" ) %>% 
+  filter(time >= today() %m+% months(-3) & time <= today() %m+% months(6) ) %>% 
   select(event_type, name, time, venue_name, venue_city, link) %>% 
   kable() %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))

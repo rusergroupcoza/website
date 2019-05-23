@@ -22,11 +22,19 @@ R is a programming language for statistical computing, data analysis and visuali
 - Secondly, this group intends to spread the use of R in South Africa and show others (also non-R users) the benefits of using R.
 
 ## Code of Conduct
-Our Code of Conduct can be found here (https://wiki.r-consortium.org/view/R_Consortium_and_the_R_Community_Code_of_Conduct)
+Our Code of Conduct can be found here:
+- R User Group: (https://wiki.r-consortium.org/view/R_Consortium_and_the_R_Community_Code_of_Conduct)
+- R Ladies: (https://rladies.org/code-of-conduct/)
 
 ## Connect with us
 We would like to hear how you use and enjoy the R language and statistical programming environment.
 
-Find out more details of when we're next meeting on our meetup page on [Meetup.com](https://www.meetup.com/Joburg-R-Users-Group/).
+Find out more details of when we're next meeting on our meetup page:
+- Johannesburg R User Group - https://www.meetup.com/Joburg-R-Users-Group/
+- R-Ladies Johannesburg - https://www.meetup.com/rladies-johannesburg/
+- R-Ladies Cape Town - https://www.meetup.com/rladies-cape-town/
 
-Slides and code from previous MeetUps can be found in our GitHub [repository].(https://github.com/rusergroupcoza/).
+Slides and code from previous Meetups can be found on GitHub:
+- Johannesburg R User Group - https://github.com/rusergroupcoza/
+- R-Ladies Johannesburg -  https://github.com/rladies/meetup-presentations_jozi/
+- R-Ladies Cape Town - https://github.com/rladies/meetup-presentations_capetown/
