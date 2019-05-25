@@ -24,7 +24,7 @@ meetup_johannesburg %>%
   filter(time >= today() %m+% months(-6) & time <= today() %m+% months(6) ) %>%
   #add_column(event_type = "Johannesburg R User Group" ) %>%
   mutate(name = cell_spec(name, "html", link = link)) %>% 
-  select(name, time, venue_name, venue_city) %>%
+  select(name, time, venue_name) %>%
   arrange(desc(time)) %>% 
   kable("html", escape = FALSE) %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
@@ -36,7 +36,7 @@ meetup_rladies_johannesburg %>%
   filter(time >= today() %m+% months(-6) & time <= today() %m+% months(6) ) %>% 
   #add_column(event_type = "R-Ladies Johannesburg" ) %>%
   mutate(name = cell_spec(name, "html", link = link)) %>% 
-  select(name, time, venue_name, venue_city) %>% 
+  select(name, time, venue_name) %>% 
   arrange(desc(time)) %>% 
   kable("html", escape = FALSE) %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
@@ -48,7 +48,7 @@ meetup_rladies_cape_town %>%
   filter(time >= today() %m+% months(-6) & time <= today() %m+% months(6) ) %>% 
   #add_column(event_type = "R-Ladies Cape Town" ) %>% 
   mutate(name = cell_spec(name, "html", link = link)) %>% 
-  select(name, time, venue_name, venue_city) %>% 
+  select(name, time, venue_name) %>% 
   arrange(desc(time)) %>% 
   kable("html", escape = FALSE) %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
