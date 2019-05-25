@@ -11,7 +11,9 @@ bookdown::gitbook:
       after: |
         <div class="div-wrapper">
         	<a href="https://www.rusergroup.co.za"><img src = "johannesburg-r-usergroup-logo.png" style="width:100px;padding-left:20px"></a>
-        	<a href="https://www.rusergroup.co.za"><img src = "rladies-logo.png" style="width:100px;padding-left:20px"></a>
+        	<a href="https://www.rusergroup.co.za"><img src = "r-ladies-logo.png" style="width:100px;padding-left:20px"></a>
+        	<a href="https://www.rusergroup.co.za"><img src = "r-ladies-cape-town-logo.png" style="width:100px;padding-left:20px"></a>
+        	
         </div>
         <li><a href="https://bookdown.org" target="_blank">Made with ❤ and bookdown</a></li>
     edit:

@@ -18,26 +18,34 @@ We are the R user groups in located in South Africa.
 R is a programming language for statistical computing, data analysis and visualisation of data. R is free and open source. Learn more at (http://www.r-project.org/).
 
 ## Our goals
-- Our purpose is to bring R users together to help each other with common problems, exchange knowledge and share experiences.
-- Secondly, this group intends to spread the use of R in South Africa and show others (also non-R users) the benefits of using R.
+Our purpose is to bring R users together to help each other with common problems, exchange knowledge and share experiences.
+
+Secondly, this group intends to spread the use of R in South Africa and show others (also non-R users) the benefits of using R.
+
+## R-Ladies
+As a diversity initiative, R-Ladies? mission is to achieve proportionate representation by encouraging, inspiring, and empowering the minorities currently underrepresented in the R community. R-Ladies? primary focus, therefore, is on supporting the R enthusiasts who identify as an underrepresented minority to achieve their programming potential, by building a collaborative global network of R leaders, mentors, learners, and developers to facilitate individual and collective progress worldwide.
+There are 155 local groups spread across 46 countries, and two of those groups are in South Africa, Cape Town and Johannesburg.
 
 ## Code of Conduct
 Our Code of Conduct can be found here:
 
-- R User Group: (https://wiki.r-consortium.org/view/R_Consortium_and_the_R_Community_Code_of_Conduct)
-- R Ladies: (https://rladies.org/code-of-conduct/)
+- [R User Group](https://wiki.r-consortium.org/view/R_Consortium_and_the_R_Community_Code_of_Conduct)
+- [R-Ladies](https://rladies.org/code-of-conduct/)
 
 ## Connect with us
 We would like to hear how you use and enjoy the R language and statistical programming environment.
 
-Find out more details of when we're next meeting on our meetup page:
+Find out more details of when we're next meeting on our meetup page, all slides and code from previous Meetups can be found on GitHub:
 
-- Johannesburg R User Group - https://www.meetup.com/Joburg-R-Users-Group/
-- R-Ladies Johannesburg - https://www.meetup.com/rladies-johannesburg/
-- R-Ladies Cape Town - https://www.meetup.com/rladies-cape-town/
-
-Slides and code from previous Meetups can be found on GitHub:
-
-- Johannesburg R User Group - https://github.com/rusergroupcoza/
-- R-Ladies Johannesburg -  https://github.com/rladies/meetup-presentations_jozi/
-- R-Ladies Cape Town - https://github.com/rladies/meetup-presentations_capetown/
+- Johannesburg R User Group |
+[Meetup](https://www.meetup.com/Joburg-R-Users-Group/) |
+[Twitter](https://twitter.com/JHBRUserGroup) |
+[GitHub](https://github.com/rusergroupcoza/meetup-presentations_johannesburg/) |
+- R-Ladies Johannesburg |
+[Meetup](https://www.meetup.com/rladies-johannesburg/) |
+[Twitter](https://twitter.com/RLadiesJozi) |
+[GitHub](https://github.com/rladies/meetup-presentations_jozi/) |
+- R-Ladies Cape Town |
+[Meetup](https://www.meetup.com/rladies-cape-town/) |
+[Twitter](https://twitter.com/RLadiesCapeTown) |
+[GitHub](https://github.com/rladies/meetup-presentations_capetown/) |
