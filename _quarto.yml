@@ -1,0 +1,35 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "South Africa R User Groups"
+
+  author-meta: "Luis de Sousa"
+  date-meta: today
+  description-meta: |
+    We are the R user groups located in South Africa.
+
+  reader-mode: true
+
+  page-footer:
+    center: |
+      Made with ❤ and built with <a href="https://quarto.org/">Quarto</a>.
+  twitter-card: true
+  site-url: https://www.rusergroup.co.za/
+  repo-url: https://github.com/rusergroupcoza/website/
+  repo-branch: main
+  repo-actions: [edit, issue]
+  chapters:
+    - index.qmd
+    - our_r_events.qmd
+    - people.qmd
+
+format:
+  html:
+    theme: cosmo
+    code-link: true
+    include-in-header: "plausible.html"
+    callout-appearance: simple
+
+editor: visual
