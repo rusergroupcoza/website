@@ -38,12 +38,6 @@ jobs:
         run: |
           quarto render
 
-      - name: Deploy to Netlify
-        provider: pages
-        fqdn: www.rusergroup.co.za
-        local_dir: _book
-        skip-cleanup: true
-        github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-        keep-history: true
-        on:
-          branch: master
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
