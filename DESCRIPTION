@@ -1,0 +1,17 @@
+Package: rusergroup
+Title: South Africa R User Groups.
+Version: 0.1
+Authors@R: c(
+    person("Luis", "de Sousa", , "luisd@syeop.co.za", role = c("aut", "cre"))
+  )
+URL: https://github.com/rusergroupcoza/website/
+Depends: 
+    R (>= 3.1.0)
+Includes:
+    magrittr
+Suggests:
+    kableExtra,
+    dplyr
+Remotes:
+    rladies/meetupr
+Encoding: UTF-8
