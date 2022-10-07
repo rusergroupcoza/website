@@ -32,6 +32,8 @@ jobs:
           use-public-rspm: true
 
       - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          extra-packages: any::XML
 
       - name: Render book to all format
         # Add any command line argument needed
