@@ -12,7 +12,8 @@ Includes:
 Suggests:
     meetupr,
     kableExtra,
-    dplyr
+    dplyr,
+    httpuv
 Remotes:
     rladies/meetupr
 Encoding: UTF-8
