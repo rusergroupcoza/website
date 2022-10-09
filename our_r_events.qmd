@@ -5,6 +5,11 @@ editor: visual
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE, results = FALSE}
 library(magrittr)
+
+meetupr::meetup_auth(
+  key = Sys.getenv("MEETUPR_KEY"),
+  secret = Sys.getenv("MEETUPR_SECRET")
+)
 ```
 
 ## Past and Upcoming Events
