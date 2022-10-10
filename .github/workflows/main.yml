@@ -16,6 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      MEETUPR_PWD: ${{ secrets.MEETUPR_PWD }}
     steps:
       - uses: actions/checkout@v2
 
