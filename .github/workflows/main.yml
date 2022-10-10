@@ -15,6 +15,7 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     env:
+      name: production
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
       MEETUPR_PWD: ${{ secrets.MEETUPR_PWD }}
     steps:
