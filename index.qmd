@@ -16,7 +16,7 @@ Secondly, this group intends to spread the use of R in South Africa and show oth
 
 ## R-Ladies
 
-As a diversity initiative, R-Ladies? mission is to achieve proportionate representation by encouraging, inspiring, and empowering the minorities currently underrepresented in the R community. R-Ladies? primary focus, therefore, is on supporting the R enthusiasts who identify as an underrepresented minority to achieve their programming potential, by building a collaborative global network of R leaders, mentors, learners, and developers to facilitate individual and collective progress worldwide. There are 155 local groups spread across 46 countries, and two of those groups are in South Africa, Cape Town and Johannesburg.
+As a diversity initiative, R-Ladies' mission is to achieve proportionate representation by encouraging, inspiring, and empowering the minorities currently underrepresented in the R community. R-Ladies' primary focus, therefore, is on supporting the R enthusiasts who identify as an underrepresented minority to achieve their programming potential, by building a collaborative global network of R leaders, mentors, learners, and developers to facilitate individual and collective progress worldwide. There are 155 local groups spread across 46 countries, and two of those groups are in South Africa, Cape Town and Johannesburg.
 
 ## Code of Conduct
 
