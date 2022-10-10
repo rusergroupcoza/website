@@ -7,8 +7,8 @@ editor: visual
 library(magrittr)
 
 meetupr::meetup_auth(
-  key = Sys.getenv("MEETUPR_KEY"),
-  secret = Sys.getenv("MEETUPR_SECRET")
+  cache = TRUE,
+  use_appdir = FALSE
 )
 ```
 
