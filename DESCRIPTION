@@ -13,7 +13,9 @@ Suggests:
     meetupr,
     kableExtra,
     dplyr,
-    httpuv
+    httpuv,
+    cyphr,
+    sodium
 Remotes:
     rladies/meetupr
 Encoding: UTF-8
