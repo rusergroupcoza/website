@@ -6,10 +6,34 @@ editor: visual
 ```{r, echo = FALSE, message = FALSE, warning = FALSE, results = FALSE}
 library(magrittr)
 
-meetupr::meetup_auth(
-  cache = TRUE,
-  use_appdir = FALSE
+#ttt <- meetupr::meetup_auth(
+#  cache = TRUE,
+#  use_appdir = FALSE
+#)
+# sodium_key <- sodium::keygen()
+# save an env variable Sys.setenv("MEETUPR_PWD" = sodium::bin2hex(sodium_key))
+#key <- cyphr::key_sodium(sodium::hex2bin(Sys.getenv("MEETUPR_PWD")))
+#cyphr::encrypt_file(
+#  ".httr-oauth",
+#  key = key,
+#  dest = "secret.rds"
+#)
+
+key <- cyphr::key_sodium(sodium::hex2bin(Sys.getenv("MEETUPR_PWD")))
+
+temptoken <- tempfile(fileext = ".rds")
+
+cyphr::decrypt_file(
+  "secret.rds",
+  key = key,
+  dest = temptoken
 )
+
+meetupr::meetup_auth(
+  verbose = meetupr_verbose(),
+  token = temptoken
+)
+
 ```
 
 ## Past and Upcoming Events
