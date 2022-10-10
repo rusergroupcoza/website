@@ -15,8 +15,6 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     env:
-      name: production
-      url: https://www.rusergroup.co.za
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v2
