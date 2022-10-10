@@ -40,6 +40,11 @@ jobs:
         # Add any command line argument needed
         run: |
           quarto render
+          
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: ./_book
 
       - name: Deploy to GitHub Pages
         id: deployment
