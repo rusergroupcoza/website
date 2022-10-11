@@ -4,6 +4,8 @@
 
 We are the R user groups located in South Africa.
 
+![](johannesburg-r-usergroup-logo.png){fig-align="center" width="200"} ![](r-ladies-logo.png){fig-align="center" width="200"} ![](r-ladies-cape-town-logo.png){fig-align="center" width="200"}
+
 ## What is R
 
 R is a programming language for statistical computing, data analysis and visualisation of data. R is free and open source. Learn more at <http://www.r-project.org/>.
@@ -34,9 +36,3 @@ Find out more details of when we're next meeting on our meetup page, all slides 
 -   Johannesburg R User Group \| [GitHub](https://github.com/rusergroupcoza/meetup-presentations_johannesburg/) \| [Meetup](https://www.meetup.com/Joburg-R-Users-Group/) \| [Sessionize](https://sessionize.com/johannesburg-r-user-group/) \| [Twitter](https://twitter.com/JHBRUserGroup) \| [WhatsApp](https://bit.ly/3CeDifS) \|
 -   R-Ladies Johannesburg \| [GitHub](https://github.com/rladies/meetup-presentations_jozi/) \| [Meetup](https://www.meetup.com/rladies-johannesburg/) \| [Twitter](https://twitter.com/RLadiesJozi) \|
 -   R-Ladies Cape Town \| [GitHub](https://github.com/rladies/meetup-presentations_capetown/) \| [Meetup](https://www.meetup.com/rladies-cape-town/) \| [Twitter](https://twitter.com/RLadiesCapeTown) \|
-
-<div>
-
-![](johannesburg-r-usergroup-logo.png){fig-align="center"} ![](r-ladies-logo.png){fig-align="center"} ![](r-ladies-cape-town-logo.png){fig-align="center"}
-
-</div>
