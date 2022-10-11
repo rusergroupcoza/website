@@ -47,7 +47,7 @@ dplyr::arrange(events, desc(time)) |>
   dplyr::filter(status %in% c("PAST", "published")) |>
   dplyr::top_n(5,time) |>
   dplyr::mutate(title = kableExtra::cell_spec(title, "html", link = link)) |>
-  dplyr::select(title, time, venue_name) |>
+  dplyr::select("Time" = time, "Title" = title, "Venue" = venue_name) |>
   kableExtra::kable("html", escape = FALSE) |>
   kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
 ```
@@ -61,7 +61,7 @@ dplyr::arrange(events, desc(time)) |>
   dplyr::filter(status %in% c("PAST", "published")) |>
   dplyr::top_n(5,time) |>
   dplyr::mutate(title = kableExtra::cell_spec(title, "html", link = link)) |>
-  dplyr::select(title, time, venue_name) |>
+  dplyr::select("Time" = time, "Title" = title, "Venue" = venue_name) |>
   kableExtra::kable("html", escape = FALSE) |>
   kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
 ```
@@ -75,7 +75,7 @@ dplyr::arrange(events, desc(time)) |>
   dplyr::filter(status %in% c("PAST", "published")) |>
   dplyr::top_n(5,time) |>
   dplyr::mutate(title = kableExtra::cell_spec(title, "html", link = link)) |>
-  dplyr::select(title, time, venue_name) |>
+  dplyr::select("Time" = time, "Title" = title, "Venue" = venue_name) |>
   kableExtra::kable("html", escape = FALSE) |>
   kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
 ```
