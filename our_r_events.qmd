@@ -3,23 +3,7 @@ title: "Our R Events"
 editor: visual
 ---
 
-```{r generate-token, include = FALSE}
-ttt <- meetupr::meetup_auth(
-  cache = TRUE,
-  use_appdir = FALSE
-)
-#sodium_key <- sodium::keygen()
-#save an env variable Sys.setenv("MEETUPR_PWD" = sodium::bin2hex(sodium_key))
-key <- cyphr::key_sodium(sodium::hex2bin(Sys.getenv("MEETUPR_PWD")))
-cyphr::encrypt_file(
-  ".httr-oauth",
-  key = key,
-  dest = "secret.rds"
-)
-```
-
 ```{r load-token, echo = FALSE, message = FALSE, warning = FALSE, results = FALSE}
-
 key <- cyphr::key_sodium(sodium::hex2bin(Sys.getenv("MEETUPR_PWD")))
 
 temptoken <- tempfile(fileext = ".rds")
