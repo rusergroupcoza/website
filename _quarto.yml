@@ -22,7 +22,7 @@ book:
   repo-actions: [edit, issue]
   chapters:
     - index.qmd
-    - our_r_events.qmd
+    - our_events.qmd
     - people.qmd
 
 format:
