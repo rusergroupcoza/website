@@ -4,12 +4,6 @@ project:
 
 book:
   title: "South Africa R User Groups"
-
-  author-meta: "Luis de Sousa"
-  date-meta: today
-  description-meta: |
-    We are the R user groups located in South Africa.
-
   reader-mode: true
 
   page-footer:
@@ -31,5 +25,6 @@ format:
     code-link: true
     include-in-header: "plausible.html"
     callout-appearance: simple
+    author-meta: "Luis de Sousa"
 
 editor: visual
