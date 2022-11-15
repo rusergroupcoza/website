@@ -26,5 +26,6 @@ format:
     include-in-header: "plausible.html"
     callout-appearance: simple
     author-meta: "Luis de Sousa"
-
+    date-meta: today
+    description-meta: "We are the R user groups located in South Africa."
 editor: visual
