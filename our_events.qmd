@@ -77,7 +77,7 @@ rladiescpt_events |>
 
 ### Johannesburg R User Group
 
-```{r}
+```{r, echo = FALSE}
 jhbr_events |>
   dplyr::filter(status %in% c("PAST")) |>
   dplyr::mutate(title = kableExtra::cell_spec(title, "html", link = link),
@@ -89,7 +89,7 @@ jhbr_events |>
 
 ### R-Ladies Johannesburg
 
-```{r}
+```{r, echo = FALSE}
 rladiesjhb_events |>
   dplyr::filter(status %in% c("PAST")) |>
   dplyr::mutate(title = kableExtra::cell_spec(title, "html", link = link),
@@ -101,7 +101,7 @@ rladiesjhb_events |>
 
 ### R-Ladies Cape Town
 
-```{r}
+```{r, echo = FALSE}
 rladiescpt_events |>
   dplyr::filter(status %in% c("PAST")) |>
   dplyr::mutate(title = kableExtra::cell_spec(title, "html", link = link),
