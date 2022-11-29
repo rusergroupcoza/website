@@ -13,7 +13,8 @@ Suggests:
     dplyr,
     httpuv,
     cyphr,
-    sodium
+    sodium,
+    lubridate
 Remotes:
     rladies/meetupr
 Encoding: UTF-8
