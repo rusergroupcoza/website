@@ -28,7 +28,7 @@ meetupr::meetup_auth(
 urlname <- "Joburg-R-Users-Group"
 jhbr_events <- meetupr::get_events(urlname) |>
   dplyr::distinct() |> # method is returning duplicates
-  dplyr::arrange(desc(time))
+  dplyr::arrange(time)
 
 jhbr_events |>
   dplyr::filter(status %in% c("published")) |>
@@ -45,7 +45,7 @@ jhbr_events |>
 urlname <- "rladies-johannesburg"
 rladiesjhb_events <- meetupr::get_events(urlname) |>
   dplyr::distinct() |> # method is returning duplicates
-  dplyr::arrange(desc(time))
+  dplyr::arrange(time)
 
 rladiesjhb_events |>
   dplyr::filter(status %in% c("published")) |>
@@ -62,7 +62,7 @@ rladiesjhb_events |>
 urlname <- "rladies-cape-town"
 rladiescpt_events <- meetupr::get_events(urlname) |>
   dplyr::distinct() |> # method is returning duplicates
-  dplyr::arrange(desc(time))
+  dplyr::arrange(time)
 
 rladiescpt_events |>
   dplyr::filter(status %in% c("published")) |>
