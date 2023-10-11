@@ -39,6 +39,23 @@ jhbr_events |>
   kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
 ```
 
+### Cape Town R User Group
+
+```{r, echo = FALSE}
+urlname <- "cape-town-r-user-group"
+cptr_events <- meetupr::get_events(urlname) |>
+  dplyr::distinct() |> # method is returning duplicates
+  dplyr::arrange(time)
+
+cptr_events |>
+  dplyr::filter(status %in% c("published")) |>
+  dplyr::mutate(title = kableExtra::cell_spec(title, "html", link = link),
+                date = lubridate::ymd_hms(format(time, "%Y-%m-%d 00:00:00"))) |>
+  dplyr::select("Date" = date, "Title" = title, "Venue" = venue_name) |>
+  kableExtra::kable("html", escape = FALSE) |>
+  kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+```
+
 ### R-Ladies Johannesburg
 
 ```{r, echo = FALSE}
@@ -79,6 +96,18 @@ rladiescpt_events |>
 
 ```{r, echo = FALSE}
 jhbr_events |>
+  dplyr::filter(status %in% c("PAST")) |>
+  dplyr::mutate(title = kableExtra::cell_spec(title, "html", link = link),
+                date = lubridate::ymd_hms(format(time, "%Y-%m-%d 00:00:00"))) |>
+  dplyr::select("Date" = date, "Title" = title, "Venue" = venue_name) |>
+  kableExtra::kable("html", escape = FALSE) |>
+  kableExtra::kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+```
+
+### Cape Town R User Group
+
+```{r, echo = FALSE}
+cptr_events |>
   dplyr::filter(status %in% c("PAST")) |>
   dplyr::mutate(title = kableExtra::cell_spec(title, "html", link = link),
                 date = lubridate::ymd_hms(format(time, "%Y-%m-%d 00:00:00"))) |>
