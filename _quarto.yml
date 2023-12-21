@@ -13,7 +13,7 @@ book:
   site-url: https://www.rusergroup.co.za/
   repo-url: https://github.com/rusergroupcoza/website/
   repo-branch: main
-  repo-actions: [edit, issue]
+  repo-actions: [source, issue]
   chapters:
     - index.qmd
     - our_events.qmd
