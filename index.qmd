@@ -34,5 +34,6 @@ We would like to hear how you use and enjoy the R language and statistical progr
 Find out more details of when we're next meeting on our meetup page, all slides and code from previous Meetups can be found on GitHub:
 
 -   Johannesburg R User Group \| [GitHub](https://github.com/rusergroupcoza/meetup-presentations_johannesburg/) \| [Meetup](https://www.meetup.com/Joburg-R-Users-Group/) \| [Sessionize](https://sessionize.com/johannesburg-r-user-group/) \| [Twitter](https://twitter.com/JHBRUserGroup) \| [WhatsApp](https://bit.ly/3CeDifS) \|
+-   Cape Town R User Group \| [Meetup](https://www.meetup.com/cape-town-r-user-group/) \| 
 -   R-Ladies Johannesburg \| [GitHub](https://github.com/rladies/meetup-presentations_jozi/) \| [Meetup](https://www.meetup.com/rladies-johannesburg/) \| [Twitter](https://twitter.com/RLadiesJozi) \|
 -   R-Ladies Cape Town \| [GitHub](https://github.com/rladies/meetup-presentations_capetown/) \| [Meetup](https://www.meetup.com/rladies-cape-town/) \| [Twitter](https://twitter.com/RLadiesCapeTown) \|
